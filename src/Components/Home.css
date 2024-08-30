@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Noto+Sans+Telugu:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eater&family=Faster+One&family=Italianno&family=Lemon&family=Noto+Sans+Telugu:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&display=swap');
+.a{
+    display: inline-block;
+}
+
+h1{
+    font-size: 2em;
+   display: block;
+   font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+.typed{
+    overflow: hidden;  
+    color: rgba(249, 225, 179, 0.24);
+    border-right: 0.15rem solid orange;
+    white-space: nowrap;
+    font-size: 4rem;
+    width: 0;
+    animation:typing 1s steps(20,end)infinite;
+}
+@keyframes typing {
+   from{
+    width: 0%;
+   }
+   to{
+    width: 50%;
+   }
+}
+
+#course{
+    margin: 30px;
+    width: 380px;
+    height: auto;
+}
+
+img{
+    width:400px;
+    height:300px;
+    margin: auto;
+} 
+#im{
+    width:300px;
+    margin:auto;
+    height:300px
+ 
+}
+
+#key{
+    background: url("images/textimg.gif");
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#profile{
+width: 100%;
+height: auto;
+}
+#back{
+    background-color: rgb(252, 252, 252);
+    color: rgb(0, 0, 0);
+}
+
+ h1.d{
+    font-family: "Faster One", system-ui;
+    font-size: 6rem;
+    font-style: normal;
+    background: url("images/gif.jpg");
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+ }
+#p1{
+    font-family: "Italianno", cursive;
+   font-size: 3rem;
+    font-style: normal;
+     padding-left: 100px;
+    padding-right: 80px; 
+ font-weight: 600;
+ color:rgb(22, 46, 49) ;
+}
+#gif{
+    width: 600px;
+    height:650px
+}
+#p{
+    font-family: "Playwrite BE VLG", cursive;
+    font-optical-sizing: 150px;
+   color: rgb(92, 86, 2);
+    font-style: normal;
+    font-size: 20px;
+    padding-left: 2%;
+}
+#h3{
+    font-family: "Sniglet", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(36, 5, 232);
+}
+.btn{
+    background-color: black;
+    color: white;
+}
+
+
+
+

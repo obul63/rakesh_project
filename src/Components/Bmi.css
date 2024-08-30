@@ -1,0 +1,40 @@
+#ro{
+background: url("./images/giphyani.gif");
+    padding: 100px;
+
+   height: 800px;
+background-size: cover;
+
+  }
+  .input-group {
+      margin-bottom: 20px;
+      margin-right: 20px;
+    }
+   
+    .input-label {
+      font-size: 30px;
+      margin: 10px;
+      color: rgb(253, 253, 253);
+      text-align: center;
+    }
+  
+    #h1{
+      background: url("images/animation.png");
+      background-size: cover;
+    background-clip: text;
+      -webkit-text-fill-color: transparent;
+ 
+  }
+  #sai{
+    background-color: rgb(45, 44, 47); 
+ height: 800px;
+  }
+#range1{
+  accent-color: rgb(239, 213, 12);
+}
+#range{ 
+  accent-color: rgb(250, 53, 14);
+}
+ 
+
+     
